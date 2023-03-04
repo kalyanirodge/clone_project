@@ -78,7 +78,7 @@ const QuestionsDetails = () => {
       const dispatch = useDispatch()
       const User = useSelector((state) => (state.currentUserReducer))
       const location = useLocation()
-      const url = 'https://spontaneous-selkie-45d2ff.netlify.app/Auth'
+      const url = 'https://spontaneous-selkie-45d2ff.netlify.app'
       
      //console.log(voteQuestion)
      
