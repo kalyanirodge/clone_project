@@ -66,3 +66,15 @@
     color: #39739d;
     border-radius: 2px;
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .right-sidebar{
+        width: 100%;
+        
+    }
+    
+}
