@@ -76,3 +76,25 @@
 .nav-links:hover{
     background-color: #d3e4eb;
 }
+
+
+
+@media screen and (max-width:768px)
+{
+    .nav-btn {
+        display: none;
+    }
+    
+ 
+}
+
+
+
+
+
+
+    
+
+
+
+    
