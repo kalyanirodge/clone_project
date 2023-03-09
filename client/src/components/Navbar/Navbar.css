@@ -84,6 +84,16 @@
     .nav-btn {
         display: none;
     }
+
+    .navbar form input{
+        min-width: fit-content;
+    }
+
+    .nav-links{
+       
+        padding: 5px 8px;
+
+    } 
     
  
 }
