@@ -88,15 +88,7 @@
         display: none;
     }
 
-    .navbar form input{
-        min-width: fit-content;
-        margin: 0;
-        padding: 8px 10px;
-        font-size: 11px;
-        border: solid 1px #0000003e;
-        border-radius: 2px;
-        
-    }
+   
 
     .navbar form .search-icon{
        display: none;
