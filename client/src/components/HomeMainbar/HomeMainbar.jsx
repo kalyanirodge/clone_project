@@ -4,13 +4,16 @@ import './HomeMainbar.css'
 import QuestionList from './QuestionList'
 import { useSelector } from 'react-redux';
 
+
 const HomeMainbar = () => { 
 
   const location = useLocation()
   const user = 1;
-  const navigate = useNavigate()
-
-
+ 
+  //const user = useSelector(state => state.user);
+  
+  const navigate = useNavigate();
+  
   const questionsList = useSelector(state => state.questionsReducer)
  //console.log(questionsList)
 
@@ -68,14 +71,32 @@ const HomeMainbar = () => {
     }]
   }] */
 
-  const checkAuth = () => {
+
+  
+ 
+
+ const checkAuth = () => {
       if(user === null){
+       
+      //console.log("user is null");
         alert("login or signup to ask a question")
       navigate('/Auth')
+    
       }else{
+      // console.log("user is not null");
         navigate('/AskQuestion')
+     
       }
-  }
+  } 
+  
+  
+
+  
+  
+  
+
+
+  
 
  
   return (
@@ -84,8 +105,9 @@ const HomeMainbar = () => {
         {
           location.pathname === '/' ? <h1>Top Questions </h1> : <h1>All Questions</h1>
         }
+       
         <button onClick={checkAuth} className='ask-btn'>Ask Question</button>
-
+       
       </div>
       <div>
         {
