@@ -90,15 +90,6 @@ const HomeMainbar = () => {
   } 
   
   
-
-  
-  
-  
-
-
-  
-
- 
   return (
     <div className='main-bar'>
       <div className='main-bar-header'>
